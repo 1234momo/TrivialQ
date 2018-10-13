@@ -14,4 +14,4 @@
 - [x] Change the background color of the multiple choice answers when clicked to indicate whether the question was answered correctly
 - [x] Further customize and style the card
 
-<img src="https://imgur.com/gallery/uZl3ukI" width="200" height="400" />  
+<img src="https://i.imgur.com/D5A8dWM.mp4" width="200" height="400" />  
