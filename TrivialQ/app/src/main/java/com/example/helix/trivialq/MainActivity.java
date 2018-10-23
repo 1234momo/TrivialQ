@@ -1,5 +1,6 @@
 package com.example.helix.trivialq;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -88,6 +89,14 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.answer2).setVisibility(View.VISIBLE);
                 findViewById(R.id.answer3).setVisibility(View.VISIBLE);
                 isShowingAnswers = true;
+            }
+        });
+
+        findViewById(R.id.adding_question).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, AddCardActivity.class);
+                MainActivity.this.startActivity(intent);
             }
         });
     }

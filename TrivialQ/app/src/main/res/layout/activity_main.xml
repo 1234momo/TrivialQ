@@ -99,5 +99,15 @@
         android:layout_marginBottom="14dp"
         android:visibility="invisible"
         android:src="@drawable/open_eye" />
+
+    <ImageView
+        android:id="@+id/adding_question"
+        android:layout_width="59dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/add_icon" />
 </RelativeLayout>
 
