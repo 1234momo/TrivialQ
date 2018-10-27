@@ -1,17 +1,16 @@
-# Lab 1 : 
+# Lab 3: 
 
 ## Required
-- [x] Create New Project in Android Studio
-- [x] Add a view for the front side of the flashcard to display the question
-- [x] Add a view for the back side of the flashcard to display the answer
-- [x] Build in logic to show the answer side when the card is tapped
-- [x] Push code to GitHub
+- [x] Add a ‘+’ button that takes the user to new ‘Add Card Screen’
+- [x] Add a cancel button to the 'Add Card Screen'
+- [x] Add two fields to the 'Add Card Screen' that will allow the user to enter the Question and the Answer
+- [x] Add a Save button that will dismiss 'Add Card Screen' and return to the Main Activity where the user can see the card they just   created
 
 ## Optional
-- [x] toggle the flashcard between the question side and the answer side
-- [x] Style the question and answer side of the card to better distinguish between the two sides
-- [x] Add selectable multiple choice answers beneath the card
-- [x] Change the background color of the multiple choice answers when clicked to indicate whether the question was answered correctly
-- [x] Further customize and style the card
+- [x] Add an ‘Edit’ button on the Main Activity that will let users ‘Edit’ an existing card
+- [x] Show an error message to the user if they didn't enter the question or answer
+- [x] Display a Snackbar notification for when the new card is created successfully
+- [x] Allow the user to add Multiple Choice answers when creating the card
+- [] Further customize and style the card
 
-<img src="https://i.imgur.com/qPQxupO.gif" width="200" height="400" />  
+<img src="https://i.imgur.com/Z8auheg.mp4" width="200" height="400" />  
