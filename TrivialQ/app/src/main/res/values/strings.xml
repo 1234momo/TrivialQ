@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Trivial Q</string>
+    <string name="snackbar_cancelText">Adding answer and question cancelled</string>
+    <string name="snackbar_text">Question and answer updated</string>
 </resources>
