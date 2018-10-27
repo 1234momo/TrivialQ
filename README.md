@@ -13,4 +13,6 @@
 - [x] Allow the user to add Multiple Choice answers when creating the card
 - [] Further customize and style the card
 
-<img src="https://i.imgur.com/Z8auheg.mp4" width="200" height="400" />  
+Imgur was converting gif to mp4 so I had to upload the gif on github
+
+<img src="https://github.com/1234momo/TrivialQ/blob/master/Screencast_2018-10-26-21-53-08_Trim.gif?raw=true" width="200" height="400" />  
