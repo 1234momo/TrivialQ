@@ -9,8 +9,6 @@ import android.widget.Toast;
 
 public class AddCardActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +21,10 @@ public class AddCardActivity extends AppCompatActivity {
         String prevOption_3 = getIntent().getStringExtra("stringKey4");
 
         //Get the editTexts to display previous data
-        EditText questionTV = ((EditText) findViewById(R.id.question));
-        EditText option_1TV = ((EditText) findViewById(R.id.answer_1));
-        EditText option_2TV = ((EditText) findViewById(R.id.answer_2));
-        EditText option_3TV = ((EditText) findViewById(R.id.answer_3));
+        EditText questionTV = findViewById(R.id.question);
+        EditText option_1TV = findViewById(R.id.answer_1);
+        EditText option_2TV = findViewById(R.id.answer_2);
+        EditText option_3TV = findViewById(R.id.answer_3);
 
         //Displays previous data, if any
         questionTV.setText(prevQuestion);
@@ -38,7 +36,6 @@ public class AddCardActivity extends AppCompatActivity {
         findViewById(R.id.cancel_adding_question).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finishActivity(50);
                 finish();
             }
         });
