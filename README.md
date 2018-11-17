@@ -4,7 +4,7 @@
 By creating a database to save the information of the flashcards, users would be able to create, modify, and delete flashcards.
 
 ### App Walk-though
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+<img src="https://github.com/1234momo/TrivialQ/blob/master/lab3.gif?raw=true" width=200><br>
 
 ## Required
 - [X] User can create a card and still see their created card when the app is relaunched.
